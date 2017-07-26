@@ -7,4 +7,4 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v0.25.1/hugo_${HUGO_
 RUN tar xvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 RUN mv hugo /usr/local/bin
 RUN rm hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-RUN npm add -g csslint jshint eslint htmllint-cli
+RUN npm add -g csslint jshint eslint htmllint-cli uglify-js uglifycss
