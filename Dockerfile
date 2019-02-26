@@ -7,4 +7,4 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hug
 RUN tar xvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 RUN mv hugo /usr/local/bin
 RUN rm hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-RUN npm add -g csslint jshint eslint htmllint-cli uglify-js uglifycss standard prettier
+RUN npm add -g stylelint csslint jshint eslint htmllint-cli uglify-js uglifycss standard prettier
